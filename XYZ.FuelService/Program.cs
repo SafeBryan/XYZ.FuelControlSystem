@@ -1,3 +1,8 @@
+﻿using Microsoft.EntityFrameworkCore;
+using XYZ.FuelService.Controllers;
+using XYZ.FuelService.Infrastructure;
+using XYZ.FuelService.Persistence;
+using FuelApp = XYZ.FuelService.Application;
 
 namespace XYZ.FuelService
 {
@@ -7,13 +12,32 @@ namespace XYZ.FuelService
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-            builder.Services.AddGrpc();
+            // 🔐 1. Configurar DbContext
+            builder.Services.AddDbContext<FuelDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("FuelDb")));
+
+            // 🔐 2. Registrar servicios de aplicación y el interceptor
+            builder.Services.AddScoped<FuelApp.FuelService>();
+            builder.Services.AddScoped<JwtInterceptor>();
+
+            // 🔐 3. Configurar gRPC con interceptor JWT
+            builder.Services.AddGrpc(options =>
+            {
+                options.Interceptors.Add<JwtInterceptor>();
+            });
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
-            app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");
+            // ✅ 4. Aplicar migraciones automáticas
+            using (var scope = app.Services.CreateScope())
+            {
+                var dbContext = scope.ServiceProvider.GetRequiredService<FuelDbContext>();
+                dbContext.Database.Migrate();
+            }
+
+            // ✅ 5. Mapear servicios gRPC
+            app.MapGrpcService<FuelGrpcService>();
+            app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client.");
 
             app.Run();
         }
