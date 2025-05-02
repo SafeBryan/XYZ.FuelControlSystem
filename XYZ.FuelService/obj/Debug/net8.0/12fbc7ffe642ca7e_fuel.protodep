@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/Fuel.cs \
+obj\Debug\net8.0\Protos/FuelGrpc.cs: Protos/fuel.proto

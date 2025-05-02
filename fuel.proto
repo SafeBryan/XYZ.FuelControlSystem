@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+option csharp_namespace = "XYZ.FuelService.Protos";
+
+package fuel;
+
+enum TipoMaquinaria {
+  LIVIANA = 0;
+  PESADA = 1;
+}
+
+service FuelService {
+  rpc RegisterFuelUsage (RegisterFuelUsageRequest) returns (RegisterFuelUsageResponse);
+  rpc GetFuelReport (FuelReportRequest) returns (FuelReportResponse);
+}
+
+message RegisterFuelUsageRequest {
+  string vehiculoId = 1;
+  string rutaId = 2;
+  float litrosConsumidos = 3;
+  TipoMaquinaria tipo = 4;
+}
+
+message RegisterFuelUsageResponse {
+  bool success = 1;
+}
+
+message FuelReportRequest {
+  TipoMaquinaria tipo = 1;
+}
+
+message FuelReportResponse {
+  repeated FuelReportItemMessage items = 1;
+}
+
+message FuelReportItemMessage {
+  string vehiculoId = 1;
+  float litrosTotales = 2;
+}

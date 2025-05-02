@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/Routes.cs \
+obj\Debug\net8.0\Protos/RoutesGrpc.cs: Protos/routes.proto

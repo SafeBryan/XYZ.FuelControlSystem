@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option csharp_namespace = "XYZ.RoutesService.Protos";
+
+package routes;
+
+service RoutesService {
+  rpc RegisterRoute (RegisterRouteRequest) returns (RegisterRouteResponse);
+  rpc GetRoutes (GetRoutesRequest) returns (GetRoutesResponse);
+}
+
+message RegisterRouteRequest {
+  string nombre = 1;
+  float distanciaKm = 2;
+  string choferId = 3;
+  string vehiculoId = 4;
+}
+
+message RegisterRouteResponse {
+  bool success = 1;
+}
+
+message GetRoutesRequest {}
+
+message GetRoutesResponse {
+  repeated RouteMessage routes = 1;
+}
+
+message RouteMessage {
+  string id = 1;
+  string nombre = 2;
+  float distanciaKm = 3;
+  string choferId = 4;
+  string vehiculoId = 5;
+}

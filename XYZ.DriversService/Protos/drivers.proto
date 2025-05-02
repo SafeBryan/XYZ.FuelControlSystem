@@ -1,0 +1,31 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "XYZ.DriversService.Protos"; 
+
+package drivers;
+
+service DriversService {
+  rpc RegisterDriver (RegisterDriverRequest) returns (RegisterDriverResponse);
+  rpc GetDrivers (GetDriversRequest) returns (GetDriversResponse);
+}
+
+message RegisterDriverRequest {
+  string name = 1;
+  string licenseNumber = 2;
+}
+
+message RegisterDriverResponse {
+  bool success = 1;
+}
+
+message GetDriversRequest {}
+
+message GetDriversResponse {
+  repeated DriverMessage  drivers = 1;
+}
+
+message DriverMessage {
+  string id = 1;
+  string name = 2;
+  string licenseNumber = 3;
+}

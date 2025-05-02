@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\proyecto\\xyz.fuelcontrolsystem\\xyz.fuelservice\\controllers\\fuelgrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|solutionrelative:xyz.fuelservice\\controllers\\fuelgrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\proyecto\\xyz.fuelcontrolsystem\\xyz.fuelservice\\domain\\fuelrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|solutionrelative:xyz.fuelservice\\domain\\fuelrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\proyecto\\xyz.fuelcontrolsystem\\xyz.fuelservice\\protos\\fuel.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|solutionrelative:xyz.fuelservice\\protos\\fuel.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\proyecto\\xyz.fuelcontrolsystem\\xyz.fuelservice\\application\\fuelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|solutionrelative:xyz.fuelservice\\application\\fuelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\proyecto\\xyz.fuelcontrolsystem\\xyz.fuelservice\\persistence\\fueldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|solutionrelative:xyz.fuelservice\\persistence\\fueldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D8D8F65-71DA-486B-B25E-87B1A84409EF}|Protos{2D8D8F65-71DA-486B-B25E-87B1A84409EF}|C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\fuel.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2D8D8F65-71DA-486B-B25E-87B1A84409EF}|Protos{2D8D8F65-71DA-486B-B25E-87B1A84409EF}|solutionrelative:fuel.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8201CD8-BD58-47B0-8EDA-EE66779A85FD}|XYZ.RoutesService\\XYZ.RoutesService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\proyecto\\xyz.fuelcontrolsystem\\xyz.routesservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8201CD8-BD58-47B0-8EDA-EE66779A85FD}|XYZ.RoutesService\\XYZ.RoutesService.csproj|solutionrelative:xyz.routesservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\proyecto\\xyz.fuelcontrolsystem\\xyz.driversservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|solutionrelative:xyz.driversservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.DriversService\\Program.cs",
+              "RelativeDocumentMoniker": "XYZ.DriversService\\Program.cs",
+              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.DriversService\\Program.cs",
+              "RelativeToolTip": "XYZ.DriversService\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T00:31:52.253Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fuel.proto",
+              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.FuelService\\Protos\\fuel.proto",
+              "RelativeDocumentMoniker": "XYZ.FuelService\\Protos\\fuel.proto",
+              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.FuelService\\Protos\\fuel.proto",
+              "RelativeToolTip": "XYZ.FuelService\\Protos\\fuel.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-05-02T01:06:01.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fuel.proto",
+              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\fuel.proto",
+              "RelativeDocumentMoniker": "fuel.proto",
+              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\fuel.proto",
+              "RelativeToolTip": "fuel.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-05-02T01:02:37.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FuelGrpcService.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.FuelService\\Controllers\\FuelGrpcService.cs",
+              "RelativeDocumentMoniker": "XYZ.FuelService\\Controllers\\FuelGrpcService.cs",
+              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.FuelService\\Controllers\\FuelGrpcService.cs",
+              "RelativeToolTip": "XYZ.FuelService\\Controllers\\FuelGrpcService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T00:53:33.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FuelService.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.FuelService\\Application\\FuelService.cs",
+              "RelativeDocumentMoniker": "XYZ.FuelService\\Application\\FuelService.cs",
+              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.FuelService\\Application\\FuelService.cs",
+              "RelativeToolTip": "XYZ.FuelService\\Application\\FuelService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T00:53:14.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FuelDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.FuelService\\Persistence\\FuelDbContext.cs",
+              "RelativeDocumentMoniker": "XYZ.FuelService\\Persistence\\FuelDbContext.cs",
+              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.FuelService\\Persistence\\FuelDbContext.cs",
+              "RelativeToolTip": "XYZ.FuelService\\Persistence\\FuelDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T00:52:50.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FuelRecord.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.FuelService\\Domain\\FuelRecord.cs",
+              "RelativeDocumentMoniker": "XYZ.FuelService\\Domain\\FuelRecord.cs",
+              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.FuelService\\Domain\\FuelRecord.cs",
+              "RelativeToolTip": "XYZ.FuelService\\Domain\\FuelRecord.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T00:52:26.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.RoutesService\\Program.cs",
+              "RelativeDocumentMoniker": "XYZ.RoutesService\\Program.cs",
+              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.RoutesService\\Program.cs",
+              "RelativeToolTip": "XYZ.RoutesService\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T00:31:44.178Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

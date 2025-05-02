@@ -1,0 +1,2 @@
+obj\Release\net8.0/Drivers.cs \
+obj\Release\net8.0/DriversGrpc.cs: drivers.proto

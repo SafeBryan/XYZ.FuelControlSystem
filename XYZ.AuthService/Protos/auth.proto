@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option csharp_namespace = "XYZ.AuthService.Protos";
+
+package auth;
+
+service AuthService {
+  rpc Login (LoginRequest) returns (LoginResponse);
+  rpc RegisterUser (RegisterRequest) returns (RegisterResponse);
+}
+
+enum Rol {
+  ADMIN = 0;
+  OPERADOR = 1;
+  SUPERVISOR = 2;
+}
+
+message LoginRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message LoginResponse {
+  string token = 1;
+  Rol rol = 2;
+}
+
+message RegisterRequest {
+  string username = 1;
+  string password = 2;
+  Rol rol = 3;
+}
+
+message RegisterResponse {
+  bool success = 1;
+}
