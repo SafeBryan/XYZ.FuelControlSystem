@@ -1,21 +1,38 @@
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using XYZ.AuthService.Application;
+using XYZ.AuthService.Controllers;
 
-namespace XYZ.AuthService
-{
-    public class Program
+var builder = WebApplication.CreateBuilder(args);
+
+// Add gRPC and JWT
+builder.Services.AddGrpc();
+builder.Services.AddSingleton<AuthService>();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
     {
-        public static void Main(string[] args)
+        options.TokenValidationParameters = new TokenValidationParameters
         {
-            var builder = WebApplication.CreateBuilder(args);
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        };
+    });
 
-            // Add services to the container.
-            builder.Services.AddGrpc();
+builder.Services.AddAuthorization(); // ✅ ESTA ES LA LÍNEA QUE FALTABA
 
-            var app = builder.Build();
+var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
-            app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");
+app.UseAuthentication();
+app.UseAuthorization();
 
-            app.Run();
-        }
-    }
-}
+app.MapGrpcService<AuthGrpcService>();
+app.MapGet("/", () => "Auth gRPC Service is running.");
+
+app.Run();

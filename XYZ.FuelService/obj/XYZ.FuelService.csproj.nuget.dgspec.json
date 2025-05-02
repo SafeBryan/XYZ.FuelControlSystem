@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.FuelService\\XYZ.FuelService.csproj": {}
+    "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.FuelService\\XYZ.FuelService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.FuelService\\XYZ.FuelService.csproj": {
+    "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.FuelService\\XYZ.FuelService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.FuelService\\XYZ.FuelService.csproj",
+        "projectUniqueName": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.FuelService\\XYZ.FuelService.csproj",
         "projectName": "XYZ.FuelService",
-        "projectPath": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.FuelService\\XYZ.FuelService.csproj",
+        "projectPath": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.FuelService\\XYZ.FuelService.csproj",
         "packagesPath": "C:\\Users\\Bryan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.FuelService\\obj\\",
+        "outputPath": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.FuelService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,6 +67,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.20.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.9.0, )"
             }
           },
           "imports": [

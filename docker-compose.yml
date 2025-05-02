@@ -1,0 +1,80 @@
+version: '3.9'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Galaxilife1
+    ports:
+      - "14333:1433" # se evita el 1433 para evitar conflicto con instancia local
+    networks:
+      - xyz-network
+    volumes:
+      - sql_data:/var/opt/mssql
+
+  fuelservice:
+    build:
+      context: .
+      dockerfile: XYZ.FuelService/Dockerfile
+    ports:
+      - "5001:8080"
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__FuelDb=Server=sqlserver;Database=FuelControlDB;User Id=sa;Password=Galaxilife1;TrustServerCertificate=True;
+    depends_on:
+      - sqlserver
+    networks:
+      - xyz-network
+
+  authservice:
+    build:
+      context: .
+      dockerfile: XYZ.AuthService/Dockerfile
+    ports:
+      - "5002:8080"
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+    networks:
+      - xyz-network
+
+  driversservice:
+    build:
+      context: .
+      dockerfile: XYZ.DriversService/Dockerfile
+    ports:
+      - "5003:8080"
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+    networks:
+      - xyz-network
+
+  vehiclesservice:
+    build:
+      context: .
+      dockerfile: XYZ.VehiclesService/Dockerfile
+    ports:
+      - "5004:8080"
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+    networks:
+      - xyz-network
+
+  routesservice:
+    build:
+      context: .
+      dockerfile: XYZ.RoutesService/Dockerfile
+    ports:
+      - "5005:8080"
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+    networks:
+      - xyz-network
+
+volumes:
+  sql_data:
+
+networks:
+  xyz-network:
+    driver: bridge

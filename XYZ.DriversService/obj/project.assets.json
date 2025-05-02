@@ -5232,11 +5232,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.DriversService\\XYZ.DriversService.csproj",
+      "projectUniqueName": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\XYZ.DriversService.csproj",
       "projectName": "XYZ.DriversService",
-      "projectPath": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.DriversService\\XYZ.DriversService.csproj",
+      "projectPath": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\XYZ.DriversService.csproj",
       "packagesPath": "C:\\Users\\Bryan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.DriversService\\obj\\",
+      "outputPath": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bryan\\AppData\\Roaming\\NuGet\\NuGet.Config",

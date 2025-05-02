@@ -5314,11 +5314,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.VehiclesService\\XYZ.VehiclesService.csproj",
+      "projectUniqueName": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.VehiclesService\\XYZ.VehiclesService.csproj",
       "projectName": "XYZ.VehiclesService",
-      "projectPath": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.VehiclesService\\XYZ.VehiclesService.csproj",
+      "projectPath": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.VehiclesService\\XYZ.VehiclesService.csproj",
       "packagesPath": "C:\\Users\\Bryan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\Proyecto\\XYZ.FuelControlSystem\\XYZ.VehiclesService\\obj\\",
+      "outputPath": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.VehiclesService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
