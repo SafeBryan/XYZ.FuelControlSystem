@@ -1,1 +1,30 @@
-<p>vehiculo-form works!</p>
+<div class="form-container">
+    <h2>Registrar Vehículo</h2>
+    <form (ngSubmit)="registrarVehiculo()" #vehiculoForm="ngForm">
+      <div class="form-group">
+        <label for="placa">Placa</label>
+        <input type="text" id="placa" [(ngModel)]="vehiculo.placa" name="placa" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="modelo">Modelo</label>
+        <input type="text" id="modelo" [(ngModel)]="vehiculo.modelo" name="modelo" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="estado">Estado</label>
+        <input type="text" id="estado" [(ngModel)]="vehiculo.estado" name="estado" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="tipo">Tipo</label>
+        <select id="tipo" [(ngModel)]="vehiculo.tipo" name="tipo">
+          <option value="Liviana">Liviana</option>
+          <option value="Pesada">Pesada</option>
+        </select>
+      </div>
+  
+      <button type="submit">Registrar</button>
+    </form>
+  </div>
+  
