@@ -205,3 +205,4 @@ C:\Users\Bryan\Desktop\Universidad\6to Semestre\Aplicaciones Distribuidas\XYZ.Fu
 C:\Users\Bryan\Desktop\Universidad\6to Semestre\Aplicaciones Distribuidas\XYZ.FuelControlSystem\XYZ.AuthService\obj\Debug\net8.0\ref\XYZ.AuthService.dll
 C:\Users\Bryan\Desktop\Universidad\6to Semestre\Aplicaciones Distribuidas\XYZ.FuelControlSystem\XYZ.AuthService\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Bryan\Desktop\Universidad\6to Semestre\Aplicaciones Distribuidas\XYZ.FuelControlSystem\XYZ.AuthService\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\Bryan\Desktop\Universidad\6to Semestre\Aplicaciones Distribuidas\XYZ.FuelControlSystem\XYZ.AuthService\bin\Debug\net8.0\BCrypt.Net-Next.dll

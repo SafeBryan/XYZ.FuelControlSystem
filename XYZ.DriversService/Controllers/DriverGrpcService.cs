@@ -1,36 +1,32 @@
-﻿using System.Threading.Tasks;
-using Grpc.Core;
+﻿using Grpc.Core;
 using XYZ.DriversService.Application;
 using XYZ.DriversService.Domain;
-using XYZ.DriversService.Protos; 
+using XYZ.DriversService.Protos;
 
 namespace XYZ.DriversService.Controllers
 {
-    public class DriverGrpcService : Protos.DriversService.DriversServiceBase 
+    public class DriverGrpcService : Protos.DriversService.DriversServiceBase
     {
         private readonly DriverService _driverService;
 
-        public DriverGrpcService()
+        public DriverGrpcService(DriverService driverService)
         {
-            _driverService = new DriverService();
+            _driverService = driverService;
         }
 
-        public override Task<RegisterDriverResponse> RegisterDriver(RegisterDriverRequest request, ServerCallContext context)
+        public override async Task<RegisterDriverResponse> RegisterDriver(RegisterDriverRequest request, ServerCallContext context)
         {
-            var success = _driverService.RegisterDriver(request.Name, request.LicenseNumber);
+            var success = await _driverService.RegisterDriver(request.Name, request.LicenseNumber);
 
-            return Task.FromResult(new RegisterDriverResponse
-            {
-                Success = success
-            });
+            return new RegisterDriverResponse { Success = success };
         }
 
-        public override Task<GetDriversResponse> GetDrivers(GetDriversRequest request, ServerCallContext context)
+        public override async Task<GetDriversResponse> GetDrivers(GetDriversRequest request, ServerCallContext context)
         {
-            //var driversList = _driverService.GetAllDrivers();
+            var list = await _driverService.GetAllDrivers();
 
             var response = new GetDriversResponse();
-           /* foreach (var d in driversList)
+            foreach (var d in list)
             {
                 response.Drivers.Add(new DriverMessage
                 {
@@ -38,16 +34,9 @@ namespace XYZ.DriversService.Controllers
                     Name = d.Name,
                     LicenseNumber = d.LicenseNumber
                 });
-            }*/
+            }
 
-            response.Drivers.Add(new DriverMessage
-            {
-                Id = "1",
-                LicenseNumber = "1",
-                Name = "Bryan",
-            });
-            return Task.FromResult(response);
-
+            return response;
         }
     }
 }

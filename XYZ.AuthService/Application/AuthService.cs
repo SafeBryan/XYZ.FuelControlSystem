@@ -1,36 +1,58 @@
-﻿using XYZ.AuthService.Domain;
+﻿using Microsoft.EntityFrameworkCore;
+using XYZ.AuthService.Domain;
+using XYZ.AuthService.Persistence;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
+using BCrypt.Net;
 
 namespace XYZ.AuthService.Application
 {
     public class AuthService
     {
+        private readonly AuthDbContext _context;
         private readonly IConfiguration _config;
 
-        private readonly List<User> _users = new()
+        public AuthService(AuthDbContext context, IConfiguration config)
         {
-            new User { Username = "admin", Password = "1234", Rol = Rol.ADMIN }
-        };
-
-        public AuthService(IConfiguration config)
-        {
+            _context = context;
             _config = config;
         }
 
-        public (bool success, string token, Rol? rol) Login(string username, string password)
+        public async Task<(bool success, string token, Rol? rol)> Login(string username, string password)
         {
-            var user = _users.FirstOrDefault(u => u.Username == username && u.Password == password);
-            if (user == null)
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == username);
+            if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.Password))
                 return (false, "", null);
 
             var token = GenerateJwtToken(user);
             return (true, token, user.Rol);
         }
 
-        private string GenerateJwtToken(User user)
+
+
+
+        public async Task<bool> Register(string username, string password, Rol rol)
+        {
+            if (await _context.Users.AnyAsync(u => u.Username == username))
+                return false;
+
+            var user = new User
+            {
+                Id = Guid.NewGuid(),
+                Username = username,
+                Password = BCrypt.Net.BCrypt.HashPassword(password),
+                Rol = rol
+            };
+
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
+
+    private string GenerateJwtToken(User user)
         {
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);

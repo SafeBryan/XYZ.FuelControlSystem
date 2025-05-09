@@ -1,14 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using XYZ.AuthService.Domain;
 
-namespace XYZ.VehiclesService.Infrastructure
+namespace XYZ.AuthService.Persistence
 {
-    public class VehicleDbContext : DbContext
+    public class AuthDbContext : DbContext
     {
-        public DbSet<User> Users { get; set; }
-
-        public VehicleDbContext(DbContextOptions<VehicleDbContext> options)
+        public AuthDbContext(DbContextOptions<AuthDbContext> options)
             : base(options) { }
+
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

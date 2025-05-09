@@ -203,3 +203,4 @@ C:\Users\Bryan\Desktop\Universidad\6to Semestre\Aplicaciones Distribuidas\XYZ.Fu
 C:\Users\Bryan\Desktop\Universidad\6to Semestre\Aplicaciones Distribuidas\XYZ.FuelControlSystem\XYZ.DriversService\obj\Debug\net8.0\XYZ.DriversService.pdb
 C:\Users\Bryan\Desktop\Universidad\6to Semestre\Aplicaciones Distribuidas\XYZ.FuelControlSystem\XYZ.DriversService\obj\Debug\net8.0\XYZ.DriversService.genruntimeconfig.cache
 C:\Users\Bryan\Desktop\Universidad\6to Semestre\Aplicaciones Distribuidas\XYZ.FuelControlSystem\XYZ.DriversService\obj\Debug\net8.0\ref\XYZ.DriversService.dll
+C:\Users\Bryan\Desktop\Universidad\6to Semestre\Aplicaciones Distribuidas\XYZ.FuelControlSystem\XYZ.DriversService\bin\Debug\net8.0\BCrypt.Net-Next.dll
