@@ -1,0 +1,35 @@
+<div class="login-container">
+  <h2>Iniciar sesión</h2>
+
+  <form (ngSubmit)="onLogin()">
+    <mat-form-field appearance="fill">
+      <mat-label>Usuario</mat-label>
+      <input matInput [(ngModel)]="username" name="username" required />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Contraseña</mat-label>
+      <input
+        matInput
+        [type]="hide ? 'password' : 'text'"
+        [(ngModel)]="password"
+        name="password"
+        required
+      />
+      <button
+        mat-icon-button
+        matSuffix
+        (click)="hide = !hide"
+        [attr.aria-label]="'Ocultar contraseña'"
+        [attr.aria-pressed]="hide"
+        type="button"
+      >
+        <mat-icon>{{ hide ? "visibility_off" : "visibility" }}</mat-icon>
+      </button>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Ingresar</button>
+  </form>
+
+  <div *ngIf="error" class="error">{{ error }}</div>
+</div>

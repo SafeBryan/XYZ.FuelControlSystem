@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+option csharp_namespace = "XYZ.VehiclesService.Protos";
+
+package vehicles;
+
+enum TipoMaquinaria {
+  LIVIANA = 0;
+  PESADA = 1;
+}
+
+service VehiclesService {
+  rpc RegisterVehicle (RegisterVehicleRequest) returns (RegisterVehicleResponse);
+  rpc GetVehicles (GetVehiclesRequest) returns (GetVehiclesResponse);
+}
+
+message RegisterVehicleRequest {
+  string placa = 1;
+  string modelo = 2;
+  TipoMaquinaria tipo = 3;
+  string estado = 4;
+}
+
+message RegisterVehicleResponse {
+  bool success = 1;
+}
+
+message GetVehiclesRequest {}
+
+message GetVehiclesResponse {
+  repeated VehicleMessage vehicles = 1;
+}
+
+message VehicleMessage {
+  string id = 1;
+  string placa = 2;
+  string modelo = 3;
+  TipoMaquinaria tipo = 4;
+  string estado = 5;
+}

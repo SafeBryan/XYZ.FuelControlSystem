@@ -3,48 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.fuelservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|solutionrelative:xyz.fuelservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FD431598-7F17-4F3F-94CC-576EF9857AD5}|XYZ.AuthService\\XYZ.AuthService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.authservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FD431598-7F17-4F3F-94CC-576EF9857AD5}|XYZ.AuthService\\XYZ.AuthService.csproj|solutionrelative:xyz.authservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.driversservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|solutionrelative:xyz.driversservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FD431598-7F17-4F3F-94CC-576EF9857AD5}|XYZ.AuthService\\XYZ.AuthService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD431598-7F17-4F3F-94CC-576EF9857AD5}|XYZ.AuthService\\XYZ.AuthService.csproj|solutionrelative:xyz.authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.driversservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|solutionrelative:xyz.driversservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD431598-7F17-4F3F-94CC-576EF9857AD5}|XYZ.AuthService\\XYZ.AuthService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD431598-7F17-4F3F-94CC-576EF9857AD5}|XYZ.AuthService\\XYZ.AuthService.csproj|solutionrelative:xyz.authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.driversservice\\persistence\\driverdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|solutionrelative:xyz.driversservice\\persistence\\driverdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD431598-7F17-4F3F-94CC-576EF9857AD5}|XYZ.AuthService\\XYZ.AuthService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.authservice\\infrastructure\\datainitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD431598-7F17-4F3F-94CC-576EF9857AD5}|XYZ.AuthService\\XYZ.AuthService.csproj|solutionrelative:xyz.authservice\\infrastructure\\datainitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.driversservice\\infrastructure\\jwtinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|solutionrelative:xyz.driversservice\\infrastructure\\jwtinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD431598-7F17-4F3F-94CC-576EF9857AD5}|XYZ.AuthService\\XYZ.AuthService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.authservice\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD431598-7F17-4F3F-94CC-576EF9857AD5}|XYZ.AuthService\\XYZ.AuthService.csproj|solutionrelative:xyz.authservice\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.driversservice\\domain\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|solutionrelative:xyz.driversservice\\domain\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.fuelservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|solutionrelative:xyz.fuelservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.fuelservice\\infrastructure\\jwtinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8484C0B7-8727-48CA-B9A2-C84418922FAD}|XYZ.FuelService\\XYZ.FuelService.csproj|solutionrelative:xyz.fuelservice\\infrastructure\\jwtinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.driversservice\\controllers\\drivergrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|solutionrelative:xyz.driversservice\\controllers\\drivergrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.driversservice\\application\\driverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|solutionrelative:xyz.driversservice\\application\\driverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.driversservice\\protos\\drivers.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}|XYZ.DriversService\\XYZ.DriversService.csproj|solutionrelative:xyz.driversservice\\protos\\drivers.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{FD431598-7F17-4F3F-94CC-576EF9857AD5}|XYZ.AuthService\\XYZ.AuthService.csproj|c:\\users\\bryan\\desktop\\universidad\\6to semestre\\aplicaciones distribuidas\\xyz.fuelcontrolsystem\\xyz.authservice\\controllers\\authgrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD431598-7F17-4F3F-94CC-576EF9857AD5}|XYZ.AuthService\\XYZ.AuthService.csproj|solutionrelative:xyz.authservice\\controllers\\authgrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,154 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\Program.cs",
-              "RelativeDocumentMoniker": "XYZ.DriversService\\Program.cs",
-              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\Program.cs",
-              "RelativeToolTip": "XYZ.DriversService\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:51:11.743Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.FuelService\\appsettings.json",
-              "RelativeDocumentMoniker": "XYZ.FuelService\\appsettings.json",
-              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.FuelService\\appsettings.json",
-              "RelativeToolTip": "XYZ.FuelService\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-09T15:49:57.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JwtInterceptor.cs",
-              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\Infrastructure\\JwtInterceptor.cs",
-              "RelativeDocumentMoniker": "XYZ.DriversService\\Infrastructure\\JwtInterceptor.cs",
-              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\Infrastructure\\JwtInterceptor.cs",
-              "RelativeToolTip": "XYZ.DriversService\\Infrastructure\\JwtInterceptor.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwEcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:49:35.757Z",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.AuthService\\Dockerfile",
+              "RelativeDocumentMoniker": "XYZ.AuthService\\Dockerfile",
+              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.AuthService\\Dockerfile",
+              "RelativeToolTip": "XYZ.AuthService\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-09T21:00:04.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\appsettings.json",
-              "RelativeDocumentMoniker": "XYZ.DriversService\\appsettings.json",
-              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\appsettings.json",
-              "RelativeToolTip": "XYZ.DriversService\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-09T15:46:43.614Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.AuthService\\Program.cs",
+              "RelativeDocumentMoniker": "XYZ.AuthService\\Program.cs",
+              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.AuthService\\Program.cs",
+              "RelativeToolTip": "XYZ.AuthService\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T20:59:07.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "drivers.proto",
-              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\Protos\\drivers.proto",
-              "RelativeDocumentMoniker": "XYZ.DriversService\\Protos\\drivers.proto",
-              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\Protos\\drivers.proto",
-              "RelativeToolTip": "XYZ.DriversService\\Protos\\drivers.proto",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2025-05-09T15:46:24.168Z",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.AuthService\\appsettings.json",
+              "RelativeDocumentMoniker": "XYZ.AuthService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.AuthService\\appsettings.json",
+              "RelativeToolTip": "XYZ.AuthService\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-09T20:58:41.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DriverDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\Persistence\\DriverDbContext.cs",
-              "RelativeDocumentMoniker": "XYZ.DriversService\\Persistence\\DriverDbContext.cs",
-              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\Persistence\\DriverDbContext.cs",
-              "RelativeToolTip": "XYZ.DriversService\\Persistence\\DriverDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Title": "DataInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.AuthService\\Infrastructure\\DataInitializer.cs",
+              "RelativeDocumentMoniker": "XYZ.AuthService\\Infrastructure\\DataInitializer.cs",
+              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.AuthService\\Infrastructure\\DataInitializer.cs",
+              "RelativeToolTip": "XYZ.AuthService\\Infrastructure\\DataInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:46:15.471Z",
+              "WhenOpened": "2025-05-09T20:56:57.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.AuthService\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "XYZ.AuthService\\Domain\\User.cs",
+              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.AuthService\\Domain\\User.cs",
+              "RelativeToolTip": "XYZ.AuthService\\Domain\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T20:56:19.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Driver.cs",
-              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\Domain\\Driver.cs",
-              "RelativeDocumentMoniker": "XYZ.DriversService\\Domain\\Driver.cs",
-              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\Domain\\Driver.cs",
-              "RelativeToolTip": "XYZ.DriversService\\Domain\\Driver.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Title": "AuthGrpcService.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.AuthService\\Controllers\\AuthGrpcService.cs",
+              "RelativeDocumentMoniker": "XYZ.AuthService\\Controllers\\AuthGrpcService.cs",
+              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.AuthService\\Controllers\\AuthGrpcService.cs",
+              "RelativeToolTip": "XYZ.AuthService\\Controllers\\AuthGrpcService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:46:06.84Z",
+              "WhenOpened": "2025-05-09T20:55:50.726Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "JwtInterceptor.cs",
-              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.FuelService\\Infrastructure\\JwtInterceptor.cs",
-              "RelativeDocumentMoniker": "XYZ.FuelService\\Infrastructure\\JwtInterceptor.cs",
-              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.FuelService\\Infrastructure\\JwtInterceptor.cs",
-              "RelativeToolTip": "XYZ.FuelService\\Infrastructure\\JwtInterceptor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:49:12.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.FuelService\\Program.cs",
-              "RelativeDocumentMoniker": "XYZ.FuelService\\Program.cs",
-              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.FuelService\\Program.cs",
-              "RelativeToolTip": "XYZ.FuelService\\Program.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:49:44.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DriverGrpcService.cs",
-              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\Controllers\\DriverGrpcService.cs",
-              "RelativeDocumentMoniker": "XYZ.DriversService\\Controllers\\DriverGrpcService.cs",
-              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\Controllers\\DriverGrpcService.cs",
-              "RelativeToolTip": "XYZ.DriversService\\Controllers\\DriverGrpcService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:45:58.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DriverService.cs",
-              "DocumentMoniker": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\Application\\DriverService.cs",
-              "RelativeDocumentMoniker": "XYZ.DriversService\\Application\\DriverService.cs",
-              "ToolTip": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.DriversService\\Application\\DriverService.cs",
-              "RelativeToolTip": "XYZ.DriversService\\Application\\DriverService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:45:50.206Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }

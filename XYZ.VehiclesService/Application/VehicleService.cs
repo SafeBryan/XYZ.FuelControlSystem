@@ -1,13 +1,19 @@
 ﻿using XYZ.VehiclesService.Domain;
-using XYZ.VehiclesService;
+using XYZ.VehiclesService.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 
 namespace XYZ.VehiclesService.Application
 {
     public class VehicleService
     {
-        private readonly List<VehicleEntity> _vehicles = new();
+        private readonly VehicleDbContext _context;
 
-        public bool RegisterVehicle(string placa, string modelo, string estado, string tipo)
+        public VehicleService(VehicleDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<bool> RegisterVehicle(string placa, string modelo, string estado, string tipo)
         {
             if (!Enum.TryParse<Protos.TipoMaquinaria>(tipo, true, out var tipoProto))
             {
@@ -15,7 +21,7 @@ namespace XYZ.VehiclesService.Application
                 return false;
             }
 
-            var tipoMaquinaria = (Domain.TipoMaquinaria)(int)tipoProto;
+            var tipoMaquinaria = (TipoMaquinaria)(int)tipoProto;
 
             var vehicle = new VehicleEntity
             {
@@ -26,10 +32,14 @@ namespace XYZ.VehiclesService.Application
                 Tipo = tipoMaquinaria
             };
 
-            _vehicles.Add(vehicle);
+            _context.Vehicles.Add(vehicle);
+            await _context.SaveChangesAsync();
             return true;
         }
 
-        public List<VehicleEntity> GetAllVehicles() => _vehicles;
+        public async Task<List<VehicleEntity>> GetAllVehicles()
+        {
+            return await _context.Vehicles.ToListAsync();
+        }
     }
 }
