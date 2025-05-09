@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{12
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Protos", "Protos", "{2D8D8F65-71DA-486B-B25E-87B1A84409EF}"
 	ProjectSection(SolutionItems) = preProject
-		drivers.proto = drivers.proto
 		auth.proto = auth.proto
-		vehicles.proto = vehicles.proto
+		drivers.proto = drivers.proto
 		fuel.proto = fuel.proto
 		routes.proto = routes.proto
+		vehicles.proto = vehicles.proto
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{1C7D5D45-A6B5-4A14-BD34-B9F150973B2C}"
@@ -22,15 +22,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{D8D32465-2352-4BCE-AEA7-65B971A988DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XYZ.DriversService", "XYZ.DriversService\XYZ.DriversService.csproj", "{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYZ.DriversService", "XYZ.DriversService\XYZ.DriversService.csproj", "{C6B56D21-B40F-43CE-ACF7-49F5659B3B11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XYZ.VehiclesService", "XYZ.VehiclesService\XYZ.VehiclesService.csproj", "{742336FD-9EDB-466D-80FD-0EDE83B4E096}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYZ.VehiclesService", "XYZ.VehiclesService\XYZ.VehiclesService.csproj", "{742336FD-9EDB-466D-80FD-0EDE83B4E096}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XYZ.RoutesService", "XYZ.RoutesService\XYZ.RoutesService.csproj", "{E8201CD8-BD58-47B0-8EDA-EE66779A85FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYZ.RoutesService", "XYZ.RoutesService\XYZ.RoutesService.csproj", "{E8201CD8-BD58-47B0-8EDA-EE66779A85FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XYZ.FuelService", "XYZ.FuelService\XYZ.FuelService.csproj", "{8484C0B7-8727-48CA-B9A2-C84418922FAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYZ.FuelService", "XYZ.FuelService\XYZ.FuelService.csproj", "{8484C0B7-8727-48CA-B9A2-C84418922FAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XYZ.AuthService", "XYZ.AuthService\XYZ.AuthService.csproj", "{FD431598-7F17-4F3F-94CC-576EF9857AD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYZ.AuthService", "XYZ.AuthService\XYZ.AuthService.csproj", "{FD431598-7F17-4F3F-94CC-576EF9857AD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
