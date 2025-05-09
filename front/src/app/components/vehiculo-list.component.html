@@ -1,0 +1,63 @@
+<div class="vehiculo-container">
+  <h2>Gestión de Vehículos</h2>
+  <button class="agregar-btn" (click)="abrirFormulario()">
+    ➕ Agregar Vehículo
+  </button>
+
+  <div class="tabla-container">
+    <table class="tabla-vehiculos">
+      <thead>
+        <tr>
+          <th>Placa</th>
+          <th>Modelo</th>
+          <th>Estado</th>
+          <th>Tipo</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let v of vehiculos">
+          <td>{{ v.placa }}</td>
+          <td>{{ v.modelo }}</td>
+          <td>{{ v.estado }}</td>
+          <td>{{ v.tipo }}</td>
+          <td>
+            <button class="eliminar-btn" (click)="eliminar(v.id!)">🗑</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" *ngIf="mostrarFormulario">
+    <div class="modal-content">
+      <span class="cerrar" (click)="cerrarFormulario()">×</span>
+      <h3>Registrar Vehículo</h3>
+      <form (ngSubmit)="registrarVehiculo()" #vehiculoForm="ngForm">
+        <label>Placa</label>
+        <input type="text" [(ngModel)]="vehiculo.placa" name="placa" required />
+        <label>Modelo</label>
+        <input
+          type="text"
+          [(ngModel)]="vehiculo.modelo"
+          name="modelo"
+          required
+        />
+        <label>Estado</label>
+        <input
+          type="text"
+          [(ngModel)]="vehiculo.estado"
+          name="estado"
+          required
+        />
+        <label>Tipo</label>
+        <select [(ngModel)]="vehiculo.tipo" name="tipo">
+          <option value="Liviana">Liviana</option>
+          <option value="Pesada">Pesada</option>
+        </select>
+        <button type="submit" class="registrar-btn">Registrar</button>
+      </form>
+    </div>
+  </div>
+</div>

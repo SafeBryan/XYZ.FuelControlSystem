@@ -32,6 +32,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYZ.FuelService", "XYZ.Fuel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYZ.AuthService", "XYZ.AuthService\XYZ.AuthService.csproj", "{FD431598-7F17-4F3F-94CC-576EF9857AD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XYZ.ApiGateway", "XYZ.ApiGateway\XYZ.ApiGateway.csproj", "{6D086682-A873-4607-8229-B042F44E6857}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{FD431598-7F17-4F3F-94CC-576EF9857AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD431598-7F17-4F3F-94CC-576EF9857AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD431598-7F17-4F3F-94CC-576EF9857AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D086682-A873-4607-8229-B042F44E6857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D086682-A873-4607-8229-B042F44E6857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D086682-A873-4607-8229-B042F44E6857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D086682-A873-4607-8229-B042F44E6857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{E8201CD8-BD58-47B0-8EDA-EE66779A85FD} = {1298AF82-CF99-450C-A161-139D331E72E6}
 		{8484C0B7-8727-48CA-B9A2-C84418922FAD} = {1298AF82-CF99-450C-A161-139D331E72E6}
 		{FD431598-7F17-4F3F-94CC-576EF9857AD5} = {1298AF82-CF99-450C-A161-139D331E72E6}
+		{6D086682-A873-4607-8229-B042F44E6857} = {D8D32465-2352-4BCE-AEA7-65B971A988DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ADD24344-FF6D-472D-ACBD-8AF1E96370F1}

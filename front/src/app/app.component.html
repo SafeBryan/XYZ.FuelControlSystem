@@ -1,1 +1,17 @@
-<app-vehiculo-form></app-vehiculo-form>
+<div class="layout">
+  <!-- Barra lateral -->
+  <aside class="sidebar">
+    <app-menu></app-menu>
+  </aside>
+
+  <!-- Contenido principal -->
+  <main class="main-content">
+    <!-- Encabezado del sistema -->
+    <app-header></app-header>
+
+    <!-- Aquí se carga tu componente de tabla de vehículos u otros módulos -->
+    <section class="content">
+      <router-outlet></router-outlet>
+    </section>
+  </main>
+</div>

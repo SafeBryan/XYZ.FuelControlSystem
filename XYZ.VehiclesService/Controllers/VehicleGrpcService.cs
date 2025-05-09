@@ -7,26 +7,28 @@ namespace XYZ.VehiclesService.Controllers
 {
     public class VehicleGrpcService : Protos.VehiclesService.VehiclesServiceBase
     {
-        private readonly VehicleService _vehicleService = new();
+        private readonly VehicleService _vehicleService;
 
-        public override Task<RegisterVehicleResponse> RegisterVehicle(RegisterVehicleRequest request, ServerCallContext context)
+        public VehicleGrpcService(VehicleService vehicleService)
         {
-            var success = _vehicleService.RegisterVehicle(
+            _vehicleService = vehicleService;
+        }
+
+        public override async Task<RegisterVehicleResponse> RegisterVehicle(RegisterVehicleRequest request, ServerCallContext context)
+        {
+            var success = await _vehicleService.RegisterVehicle(
                 request.Placa,
                 request.Modelo,
                 request.Estado,
                 request.Tipo.ToString()
             );
 
-            return Task.FromResult(new RegisterVehicleResponse
-            {
-                Success = success
-            });
+            return new RegisterVehicleResponse { Success = success };
         }
 
-        public override Task<GetVehiclesResponse> GetVehicles(GetVehiclesRequest request, ServerCallContext context)
+        public override async Task<GetVehiclesResponse> GetVehicles(GetVehiclesRequest request, ServerCallContext context)
         {
-            var vehicles = _vehicleService.GetAllVehicles();
+            var vehicles = await _vehicleService.GetAllVehicles();
             var response = new GetVehiclesResponse();
 
             foreach (var v in vehicles)
@@ -41,7 +43,7 @@ namespace XYZ.VehiclesService.Controllers
                 });
             }
 
-            return Task.FromResult(response);
+            return response;
         }
     }
 }

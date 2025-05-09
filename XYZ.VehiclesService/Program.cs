@@ -1,25 +1,30 @@
-using Grpc.Reflection;
-using Grpc.Reflection.V1Alpha;
+﻿using Microsoft.EntityFrameworkCore;
+using XYZ.VehiclesService.Application;
+using XYZ.VehiclesService.Controllers;
+using XYZ.VehiclesService.Infrastructure;
 
-namespace XYZ.VehiclesService
+var builder = WebApplication.CreateBuilder(args);
+
+// ✅ EF Core
+builder.Services.AddDbContext<VehicleDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("VehicleDb")));
+
+// ✅ Servicios
+builder.Services.AddScoped<VehicleService>();
+builder.Services.AddGrpc();
+builder.Services.AddGrpcReflection();
+
+var app = builder.Build();
+
+// ✅ Migración automática
+using (var scope = app.Services.CreateScope())
 {
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            var builder = WebApplication.CreateBuilder(args);
-
-            // Registrar servicios gRPC y reflexi�n
-            builder.Services.AddGrpc();
-            builder.Services.AddGrpcReflection(); // ? esto es nuevo
-
-            var app = builder.Build();
-
-            app.MapGrpcService<XYZ.VehiclesService.Controllers.VehicleGrpcService>();
-            app.MapGrpcReflectionService(); // ? esto es nuevo
-            app.MapGet("/", () => "Use a gRPC client to communicate with gRPC endpoints.");
-
-            app.Run();
-        }
-    }
+    var db = scope.ServiceProvider.GetRequiredService<VehicleDbContext>();
+    db.Database.Migrate();
 }
+
+app.MapGrpcService<VehicleGrpcService>();
+app.MapGrpcReflectionService();
+app.MapGet("/", () => "gRPC Vehicles Service activo");
+
+app.Run();
