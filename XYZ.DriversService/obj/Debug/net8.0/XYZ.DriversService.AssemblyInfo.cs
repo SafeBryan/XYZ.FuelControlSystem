@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XYZ.DriversService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12013a26faa93922e81af37a97719a5dd7146462")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55a6c9fcce4ea62c719e69b0d0243fe31ed71ba0")]
 [assembly: System.Reflection.AssemblyProductAttribute("XYZ.DriversService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XYZ.DriversService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
