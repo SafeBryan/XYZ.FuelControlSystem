@@ -1,22 +1,34 @@
+﻿using Microsoft.EntityFrameworkCore;
+using XYZ.DriversService.Application;
+using XYZ.DriversService.Controllers;
+using XYZ.DriversService.Persistence;
+using XYZ.DriversService.Infrastructure;
 
-namespace XYZ.DriversService
+var builder = WebApplication.CreateBuilder(args);
+
+// ✅ EF Core
+builder.Services.AddDbContext<DriverDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DriverDb")));
+
+// ✅ App logic + Interceptor
+builder.Services.AddScoped<DriverService>();
+builder.Services.AddScoped<JwtInterceptor>();
+
+builder.Services.AddGrpc(options =>
 {
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            var builder = WebApplication.CreateBuilder(args);
+    options.Interceptors.Add<JwtInterceptor>();
+});
 
-            // Add services to the container.
-            builder.Services.AddGrpc();
+var app = builder.Build();
 
-            var app = builder.Build();
-
-            // Configure the HTTP request pipeline.
-            app.MapGrpcService<XYZ.DriversService.Controllers.DriverGrpcService>();
-            app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");
-
-            app.Run();
-        }
-    }
+// ✅ Migración automática
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<DriverDbContext>();
+    db.Database.Migrate();
 }
+
+app.MapGrpcService<DriverGrpcService>();
+app.MapGet("/", () => "gRPC Drivers Service activo");
+
+app.Run();

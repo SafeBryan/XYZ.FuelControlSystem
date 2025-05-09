@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8LF6NeMtIy0=",
-  "dgSpecHash": "dFKkhRYBu1M=",
+  "dgSpecHash": "LcHcmr/p8A0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Bryan\\Desktop\\Universidad\\6to Semestre\\Aplicaciones Distribuidas\\XYZ.FuelControlSystem\\XYZ.AuthService\\XYZ.AuthService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bryan\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Bryan\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\Bryan\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Bryan\\.nuget\\packages\\google.protobuf\\3.23.1\\google.protobuf.3.23.1.nupkg.sha512",
     "C:\\Users\\Bryan\\.nuget\\packages\\grpc.aspnetcore\\2.57.0\\grpc.aspnetcore.2.57.0.nupkg.sha512",
     "C:\\Users\\Bryan\\.nuget\\packages\\grpc.aspnetcore.server\\2.57.0\\grpc.aspnetcore.server.2.57.0.nupkg.sha512",

@@ -1,12 +1,19 @@
 ﻿using XYZ.DriversService.Domain;
+using XYZ.DriversService.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace XYZ.DriversService.Application
 {
     public class DriverService
     {
-        private readonly List<Driver> _drivers = new();
+        private readonly DriverDbContext _context;
 
-        public bool RegisterDriver(string name, string license)
+        public DriverService(DriverDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<bool> RegisterDriver(string name, string license)
         {
             var driver = new Driver
             {
@@ -14,13 +21,15 @@ namespace XYZ.DriversService.Application
                 Name = name,
                 LicenseNumber = license
             };
-            _drivers.Add(driver);
+
+            _context.Drivers.Add(driver);
+            await _context.SaveChangesAsync();
             return true;
         }
 
-        public List<Driver> GetAllDrivers()
+        public async Task<List<Driver>> GetAllDrivers()
         {
-            return _drivers;
+            return await _context.Drivers.ToListAsync();
         }
     }
 }

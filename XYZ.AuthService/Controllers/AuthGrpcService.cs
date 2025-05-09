@@ -14,14 +14,14 @@ namespace XYZ.AuthService.Controllers
             _authService = authService;
         }
 
-        public override Task<Protos.LoginResponse> Login(Protos.LoginRequest request, ServerCallContext context)
+        public override async Task<Protos.LoginResponse> Login(Protos.LoginRequest request, ServerCallContext context)
         {
-            var (success, token, rol) = _authService.Login(request.Username, request.Password);
+            var (success, token, rol) = await _authService.Login(request.Username, request.Password);
 
             if (!success)
                 throw new RpcException(new Status(StatusCode.Unauthenticated, "Usuario o contraseña inválidos"));
 
-            return Task.FromResult(new Protos.LoginResponse
+            return new Protos.LoginResponse
             {
                 Token = token,
                 Rol = rol switch
@@ -31,13 +31,14 @@ namespace XYZ.AuthService.Controllers
                     Domain.Rol.SUPERVISOR => Protos.Rol.Supervisor,
                     _ => Protos.Rol.Operador
                 }
-            });
-
+            };
         }
 
-        public override Task<Protos.RegisterResponse> RegisterUser(Protos.RegisterRequest request, ServerCallContext context)
+        public override async Task<Protos.RegisterResponse> RegisterUser(Protos.RegisterRequest request, ServerCallContext context)
         {
-            return Task.FromResult(new Protos.RegisterResponse { Success = true });
+            var success = await _authService.Register(request.Username, request.Password, (Domain.Rol)request.Rol);
+            return new Protos.RegisterResponse { Success = success };
+
         }
     }
 }
